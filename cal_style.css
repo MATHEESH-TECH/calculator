@@ -1,0 +1,59 @@
+.cal{
+    height: 450px;
+    width: 310px;
+    margin: 0px;
+    background-color:black;
+   margin: 100px auto;
+    border-radius: 20px;
+    padding: 20px;
+    
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(169, 236, 236);
+    margin:0px;
+}
+#textbox{
+    width: 305px;
+    height: 90px;
+    background-color: rgb(5, 5, 4);
+    border-radius: 10px;
+    border-color: rgb(241, 237, 237);
+    color: aliceblue;
+    font-size: 20px;
+    border-style:solid;
+    border-width: 2px;
+    text-align: center;
+}
+input{
+height: 55px;
+width: 55px;
+}
+
+.row{
+    width: 310px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.but{
+    border-radius: 50%;
+    margin: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:rgb(22, 17, 17);
+
+}
+
+.put{
+    color: aqua;
+    background-color: rgb(63, 60, 60);
+}
+
+.cut{
+    background-color: rgba(255, 124, 1, 0.973);
+}

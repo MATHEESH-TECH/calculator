@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cal_style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="cal">
+        <form action="" class="calculator">
+            <div>
+                <input type="text" name="textbox" id="textbox">
+            </div>
+            <div class="row">
+                <input type="button" value="C" class="but put" onclick="textbox.value=''">
+                <input type="button" value="%" class="but put" onclick="textbox.value+='%'">
+                <input type="button" value="D" class="but put" onclick="textbox.value=textbox.value.slice(0,-1)">
+                <input type="button" value="/" class="but put" onclick="textbox.value+='/'">
+            </div>
+            <div class="row">
+                <input type="button" value="7" class="but" onclick="textbox.value+='7'">
+                <input type="button" value="8" class="but" onclick="textbox.value+='8'">
+                <input type="button" value="9" class="but" onclick="textbox.value+='9'">
+                <input type="button" value="x" class="but put"  onclick="textbox.value+='*'">
+            </div>
+            <div class="row">
+                <input type="button" value="4" class="but" onclick="textbox.value+='4'">
+                <input type="button" value="5" class="but" onclick="textbox.value+='5'">
+                <input type="button" value="6" class="but" onclick="textbox.value+='6'">
+                <input type="button" value="-" class="but put" onclick="textbox.value+='-'">
+            </div >
+            <div class="row">
+                <input type="button" value="1" class="but" onclick="textbox.value+='1'">
+                <input type="button" value="2" class="but" onclick="textbox.value+='2'">
+                <input type="button" value="3" class="but" onclick="textbox.value+='3'">
+                <input type="button" value="+" class="but put" onclick="textbox.value+='+'">
+            </div>
+            <div class="row">
+                <input type="button" value="00" class="but" onclick="textbox.value+='00'">
+                <input type="button" value="0" class="but" onclick="textbox.value+='0'">
+                <input type="button" value="." class="but" onclick="textbox.value+='.'">
+                <input type="button" value="=" class="but cut" onclick="textbox.value=eval(textbox.value)" >
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
